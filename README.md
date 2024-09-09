@@ -89,10 +89,11 @@ cv2.imshow('display',re)
 
 ### iii)Shape of the Image
 Python
+```
 import cv2
 image=cv2.imread('anime.jpg')
 print(image.shape)
-
+```
 
   </td>
   <td>
@@ -106,6 +107,7 @@ print(image.shape)
       
 ### iv)Access rows and columns
 Python
+```
 import random
 import cv2
 img=cv2.imread('anime.jpg',1)
@@ -118,7 +120,7 @@ for i in range (150,200):
 cv2.imshow('part image',re)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
   </td>
   <td width="50%">
@@ -132,8 +134,8 @@ cv2.destroyAllWindows()
     <td width=50%>
       
 ### v)Cut and paste portion of image
-
- Python
+Python
+```
 import cv2
 img=cv2.imread('anime.jpg',1)
 re=cv2.resize(img,(400,400))
@@ -142,7 +144,7 @@ re[110:160,150:200] = tag
 cv2.imshow('cut image',re)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
   </td>
   <td>
@@ -156,6 +158,7 @@ cv2.destroyAllWindows()
 
 ### vi) BGR and RGB to HSV and GRAY
 Python
+```
 import cv2
 img = cv2.imread('anime.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -175,7 +178,7 @@ cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
 
 ### OUTPUT:
@@ -186,6 +189,7 @@ cv2.destroyAllWindows()
 
 ### vii) HSV to RGB and BGR
 Python
+```
 import cv2
 img = cv2.imread('anime.jpg')
 img = cv2.resize(img,(300,200))
@@ -201,7 +205,7 @@ cv2.imshow('HSV2RGB',BGR)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
 
 ### OUTPUT:
@@ -211,6 +215,7 @@ cv2.destroyAllWindows()
 
 ### viii) RGB and BGR to YCrCb
 Python
+```
 import cv2
 img = cv2.imread('anime.jpg')
 img = cv2.resize(img,(300,200))
@@ -224,7 +229,7 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
 
 ### OUTPUT:
@@ -235,6 +240,7 @@ cv2.destroyAllWindows()
 
 ### ix) Split and merge RGB Image
 Python
+```
 import cv2
 img = cv2.imread('anime.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -252,7 +258,7 @@ cv2.imshow('Merged RGB image',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
 
 ### OUTPUT:
@@ -262,6 +268,7 @@ cv2.destroyAllWindows()
 
 ### x) Split and merge HSV Image
 Python
+```
 import cv2
 img = cv2.imread("anime.jpg",1)
 img = cv2.resize(img,(300,200))
@@ -278,7 +285,7 @@ cv2.imshow('Merged',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 
 
 ### OUTPUT:
