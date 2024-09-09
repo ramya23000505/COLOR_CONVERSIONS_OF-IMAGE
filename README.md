@@ -1,4 +1,5 @@
 # EXP-1 COLOR CONVERSIONS OF IMAGE
+### Date:
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 
@@ -36,21 +37,22 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ## Program:
-### Developed By: J.JENISHA
-### Register Number: 212222230056
+### Developed By: Ramya R
+### Register Number: 212223230169
 <table>
   <tr>
     <td width=50%>
 
 ### i) Read and display the image
 Python
+```
 import cv2
 img=cv2.imread('anime.jpg',1)
 img=cv2.resize(img,(400,300))
 cv2.imshow('show',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
  
   </td>
   <td>
@@ -66,12 +68,13 @@ cv2.destroyAllWindows()
 
 ### ii)Write the image
 Python
+```
 import cv2
 img=cv2.imread('anime.jpg')
 re=cv2.resize(img,(400,300))
 cv2.imwrite('display.jpg',re)
 cv2.imshow('display',re)
-
+```
 
   </td>
   <td>
